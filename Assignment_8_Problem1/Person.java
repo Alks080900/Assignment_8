@@ -5,12 +5,12 @@ class Person {
     private String firstName;
     private int age;
 
-    public Person(String last, String first, int a) { // constructor
+    public Person(String last, String first, int a) { 
         lastName = last;
         firstName = first;
         age = a;
     }
-    public String getLast() // get last name
+    public String getLast()
     {
         return lastName;
     }
